@@ -7,9 +7,7 @@ import {Analyzer} from '../assets/analyzer';
   styleUrls: ['./textbox.component.css']
 })
 export class TextboxComponent implements OnInit {
-
-  private incoming: string;
-  private german = Analyzer.german();
+  public german = Analyzer.german();
   constructor() {
   }
   analyze(text) {
